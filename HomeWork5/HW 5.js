@@ -27,7 +27,7 @@ function findOddNumbers(n) {
             result.push(i)
         }
     }
-    return result
+    return result.length
 }
 
 console.log(findOddNumbers(20))
